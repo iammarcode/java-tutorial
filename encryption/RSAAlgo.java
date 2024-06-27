@@ -1,5 +1,3 @@
-package com.marco.encryption;
-
 import javax.crypto.Cipher;
 import java.nio.charset.StandardCharsets;
 import java.security.*;
