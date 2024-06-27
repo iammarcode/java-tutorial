@@ -1,3 +1,5 @@
+package com.marco.asymmetric;
+
 import javax.crypto.Cipher;
 import java.nio.charset.StandardCharsets;
 import java.security.*;
@@ -5,7 +7,7 @@ import java.security.spec.PKCS8EncodedKeySpec;
 import java.security.spec.X509EncodedKeySpec;
 import java.util.Base64;
 
-public class RSAAlgo {
+public class RSA {
     public static void main(String[] args) throws Exception {
         String publicKey = getPublicKey();
         String privateKey = getPrivateKey();
