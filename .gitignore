@@ -1,4 +1,14 @@
-**/target/
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# Jar files
+*.jar
+
+# Maven specific
+target/
 pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup
@@ -7,11 +17,62 @@ release.properties
 dependency-reduced-pom.xml
 buildNumber.properties
 .mvn/timing.properties
-# https://github.com/takari/maven-wrapper#usage-without-binary-jar
-.mvn/wrapper/maven-wrapper.jar
 
-# Eclipse m2e generated files
-# Eclipse Core
-.project
-# JDT-specific (Eclipse Java Development Tools)
+# Avoid Mac system files
+.DS_Store
+
+# Avoid Windows system files
+Thumbs.db
+
+# Avoid Linux system files
+*.swp
+
+# IDE specific files
+/.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+*.code-workspace
+
+# Node modules if using Node in the project
+/node_modules/
+
+# Package lock files
+package-lock.json
+yarn.lock
+
+# Local development
+.local/
+.localdev/
+
+# Application-specific files
+*.war
+hs_err_pid*
+
+# Eclipse specific
 .classpath
+.project
+.settings/
+
+# JRebel
+rebel.xml
+
+# Serialized files (if used)
+*.ser
+
+# Environment specific files that may contain sensitive information
+/.env
+/.env.local
+.env.*
+!.env.example
+
+# Build results
+/dist/
+/build/
+
+# Local configuration file (database config, etc.)
+/application.properties
+/application.yml
+!**/src/main/resources/application.properties
+!**/src/main/resources/application.yml
