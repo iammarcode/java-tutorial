@@ -10,7 +10,7 @@
   <packaging>pom</packaging>
 
   <modules>
-    <module>multiThreading</module>
+    <module>concurrency</module>
     <module>encryption</module>
   </modules>
 

@@ -7,7 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="encryption" />
-        <module name="multiThreading" />
+        <module name="concurrency" />
       </profile>
     </annotationProcessing>
   </component>
