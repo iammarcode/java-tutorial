@@ -13,7 +13,7 @@ public class Demo {
     @Test
     public void givenMultiThread_whenNonSyncMethod() throws InterruptedException {
         ExecutorService service = Executors.newFixedThreadPool(3);
-        SynchronizedMethods summation = new SynchronizedMethods();
+        Unsafe summation = new Unsafe();
 
         IntStream.range(0, 100000).forEach(count -> service.submit(summation::calculate));
         service.awaitTermination(1000, TimeUnit.MILLISECONDS);

@@ -1,6 +1,6 @@
 package com.marco.synchronization;
 
-public class SynchronizedMethods {
+public class Unsafe {
     private int sum = 0;
 
     public void calculate() {
