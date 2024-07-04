@@ -1,11 +1,11 @@
-package com.marco.synchronization;
+package com.marco.demo.synchronization;
 
-public class Unsafe {
+public class NonSynchronized {
     private int sum = 0;
 
     public void calculate() {
         setSum(getSum() + 1);
-        System.out.println(Thread.currentThread().getName() + " is running: " + this.sum);
+//        System.out.println(Thread.currentThread().getName() + " is running: " + this.sum);
     }
 
     public void setSum(int sum) {
