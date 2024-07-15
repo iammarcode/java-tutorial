@@ -10,5 +10,8 @@
         <module name="concurrency" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="java-learning" target="21" />
+    </bytecodeTargetLevel>
   </component>
 </project>
