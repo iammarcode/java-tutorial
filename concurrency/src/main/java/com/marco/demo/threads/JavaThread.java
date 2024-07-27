@@ -1,6 +1,6 @@
 package com.marco.demo.threads;
 
-public class CreateJavaThread {
+public class JavaThread {
     public static void main(String[] args) throws InterruptedException {
         // 1.Implement Runnable (Custom Class)
         SampleRunnable sampleRunnable = new SampleRunnable();
