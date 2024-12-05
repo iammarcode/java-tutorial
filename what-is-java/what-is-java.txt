@@ -1,0 +1,28 @@
+- Java Language
+Java files are stored in files suffixed with ".java".
+
+- Java Bytecode
+Java files(xxx.java) are then compiled into Java byte code using the Java compiler.
+
+- Java Virtual Machine
+JVM is a program itself. The byte code is then executed using the Java Virtual Machine (JVM).
+
+- Standard Java APIs
+These APIs enable your Java programs to access the local file system, the network and many other things.
+The standard Java APIs come bundled with the Java Runtime Environment (JRE).
+
+- Java Runtime Environment (JRE)
+JRE is the JVM + standard Java APIs.
+The JRE contains enough to execute a Java application, but not to compile it.
+
+- Java Software Development Kit (SDK)
+JRE + compiler
+.java files -> .class files.
+
+- Java Code Conventions
+The Java Code Conventions are a set of conventions for how to format your Java code, and how to name classes, variables, files etc.
+
+- Java has evolved into three different sets of APIs(https://docs.oracle.com/en/java/index.html):
+Java Platform, Standard Edition (Java SE)
+Java Embedded
+Java Platform, Enterprise Edition (Java EE)

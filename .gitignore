@@ -3,3 +3,6 @@
 
 # Avoid Mac system files
 .DS_Store
+
+# java compiled files
+*/classes
