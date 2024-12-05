@@ -1,0 +1,8 @@
+// Java Source and Class Directories
+The source directory is often called src, but this is not a requirement. For instance if you use the build tool Maven then you will typically use a different directory structure, where the Java source code is stored in the src/main/java directory (under the root directory of your project)
+
+// compile java file
+javac src/mypackage/*.java -d classes
+
+// execute class file
+java -cp classes mypackage.MyClass
